@@ -3,4 +3,5 @@
  (public_name shexp.process)
  (libraries posixat shexp_bigstring shexp_bigstring_io shexp_sexp spawn
    threads unix)
+ (flags (:standard -w -69))
  (preprocess no_preprocessing))
