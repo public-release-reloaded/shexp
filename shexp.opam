@@ -12,11 +12,11 @@ build: [
 ]
 depends: [
   "ocaml" {>= "5.5.0"}
-  "posixat"
-  "sexplib0"
+  "posixat" {>= "v0.18~" & < "v0.19~"}
+  "sexplib0" {>= "v0.18~" & < "v0.19~"}
   "base-threads"
-  "dune"         {>= "3.17.0"}
-  "spawn"        {>= "v0.15"}
+  "dune" {>= "3.17.0"}
+  "spawn" {>= "v0.15"}
 ]
 available: arch != "x86_32"
 synopsis: "Process library and s-expression based shell"
